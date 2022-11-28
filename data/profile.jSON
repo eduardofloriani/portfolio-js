@@ -1,0 +1,75 @@
+{
+    "name": "Eduardo Moser Floriani",
+    "photo": "../assets/img/foto_cropped.png",
+    "job": "Estudante de Programação",
+    "location": "Blumenau - SC",
+    "phone": "(47) 99656-7686",
+    "email": "eeduardofloriani@gmail.com.br",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Html",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "Javascript",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png" 
+        },
+        {
+          "name": "Docker",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (intermediário)"
+    ],
+    "portfolio": [
+      {
+        "name": "Admin Dashboard",
+        "url": "https://github.com/eduardofloriani/adminDashboard",
+        "github": true
+      },
+      {
+        "name": "Pokedex",
+        "url": "https://github.com/eduardofloriani/pokedexJS",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Suporte Técnico | SCS",
+        "period": "Abril 2021 - Atualmente",
+        "description": "Responsável pela abertura de chamados e solução de problemas técnicos."
+      },
+      {
+        "name": "Designer Gráfico | Freelancer",
+        "period": "2018 - 2021",
+        "description": "Criação de artes visuais para pessoas físicas e jurídicas."
+      }
+    ]
+}
