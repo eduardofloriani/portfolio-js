@@ -9,31 +9,31 @@
       "hardSkills": [
         {
           "name": "Html",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/css.png"
         },
         {
           "name": "Javascript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/js.png"
         },
         {
           "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/react.png"
         },
         {
           "name": "Python",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/python.png"
         },
         {
           "name": "MySQL",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png" 
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/mysql.png" 
         },
         {
           "name": "Docker",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png"
+          "logo": "https://raw.githubusercontent.com/eduardofloriani/portfolio-js/main/data/imgs/docker.png"
         }
       ],
       "softSkills": [
