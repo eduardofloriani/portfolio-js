@@ -31,9 +31,39 @@ function updateHardSkills(profileData) {
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
 
+function updateLanguages(profileData) {
+    const languages = document.getElementById('profile.languages');
+    languages.innerHTML = profileData.languages.map(language => `<li><span class="material-symbols-sharp check">done</span>${language}</li>`).join('');
+}
+
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio');
+    portfolio.innerHTML = profileData.portfolio.map(port => `
+    <li>
+        <span class="title${port.github ? ' github' : ''}">${port.name}</span>
+        <a href="${port.url}"
+            target="_blank">${port.url}</a>
+    </li>
+    `).join('');
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience');
+    professionalExperience.innerHTML = profileData.professionalExperience.map(exp => `
+    <li>
+        <span class="title">${exp.name}</span>
+        <p class="period">${exp.period}</p>
+        <p>${exp.description}</p>
+    </li>
+    `).join('');
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData);
-    updateSoftSkills(profileData)
-    updateHardSkills(profileData)
+    updateSoftSkills(profileData);
+    updateHardSkills(profileData);
+    updateLanguages(profileData);
+    updatePortfolio(profileData);
+    updateProfessionalExperience(profileData);
 })()
